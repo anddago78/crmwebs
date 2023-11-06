@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
 	"name": "collapse_image_snippet",
-	"summary": "Visualiza un despegable y una imagen al lado",
-	"description": "Añade un bloque donde podras poner un despegable y una imagen que cambia en automatico",
+	"summary": "Add a snippet collapse with image",
+	"description": "Add a snippet collapse with image",
 	"author": "Andrea Cattalani",
-	"website": "https://deop.es",
+	"website": "https://crmwebs.com",
 	"version": "0.1",
 	"depends": ["base","website"],
 	"data": ['views/snippets/collapse_image.xml'
