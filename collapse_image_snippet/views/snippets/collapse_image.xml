@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="collapse_image_snippet.custom_collapse_image_snippets" inherit_id="website.snippets"
+                  name="Custom collapse Snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+                <t t-snippet="collapse_image_snippet.custom_collapse_image"
+                   t-thumbnail="/collapse_image_snippet/static/src/img/snippets/dropdown.png"/>
+            </xpath>
+        </template>
+
+        <template id="collapse_image_snippet.custom_collapse_image" name="Collapse image snippet">
+        <section class="s_faq_collapse collapse_image pt32 pb32 o_colored_level s_faq_collapse_big" data-name="Accordion" style="background-image: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6"><img src="/web/image/website.s_masonry_block_default_image_1" id="imagecollapse" class="img img-fluid mx-auto" alt=""/></div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+            <div id="myCollapse" class="accordion" role="tablist">
+                <div class="card bg-white" data-name="Item">
+                    <a href="#" role="tab" data-bs-toggle="collapse" aria-expanded="false" class="collapsed card-header o_default_snippet_text" data-bs-target="#myCollapseTab629654_2">Enlaces a otros sitios web</a>
+                    <div class="collapse" data-bs-parent="#myCollapse" role="tabpanel" id="myCollapseTab629654_2">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-2"> <img src="/web/image/website.s_masonry_block_default_image_1" class="img img-fluid rounded-circle mx-auto images-de-cancelar" alt="" style="width:50px;" /></div>
+                                    <div class="col-10">
+                                    <p class="card-text o_default_snippet_text">Aunque este portal puede estar vinculado a otras páginas, ello no implica, ya sea directa o indirectamente, la aprobación, asociación, patrocinio, respaldo o afiliación por nuestra parte a dichas páginas salvo que se indique específicamente en este escrito.</p>
+                                    <p class="card-text o_default_snippet_text">Debería revisar cuidadosamente las cláusulas legales y otras condiciones de uso de las páginas web a las que acceda mediante enlaces de este Sitio web. Su vinculación con otros portales o páginas web externas queda bajo su propia cuenta y riesgo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+            <div class="collapse-popup">
+  <div class="overlay"></div>
+  <div class="img-show">
+    <img src=""/>
+  </div>
+</div>
+    </section>
+    </template>
+    </data>
+</odoo>
